@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 2.5em;
+}
+
+.inputs {
+    margin: 5px 20px;
+}
+
+input {
+    width: 230px;
+}
+
+.buttons {
+    margin: 10px 20px;
+}
+
+button {
+    width: 230px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #fec107;
+    margin: 10px 20px;
+    width: 700px;
+    font-family: arial;
+    }
+
+th, td {
+border: 2px solid #e5ae30;
+padding: 20px;
+text-align: justify;
+}
+
+.yellow {
+    background: #fec107;
+    text-align: center;
+    color: black;
+}
+
+.yellowish {
+    background: #e5ae30;
+    text-align: center;
+}
+
+.row {
+    background: #382c6e;
+    color: white;
+}

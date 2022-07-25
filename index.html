@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Append table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Append table</h1>
+
+    <form name="sample">
+      <div class="inputs">
+        <input id="inputName" type="text" placeholder="vardas" />
+        <input id="inputSurname" type="text" placeholder="pavardė" />
+        <input id="age" type="number" placeholder="amžius" />
+      </div>
+
+      <div class="buttons">
+        <button id="addList">Pridėti</button>
+        <button id="removeFirst">Ištrinti pirmą</button>
+        <button id="removeLast">Ištrinti paskutinį</button>
+      </div>
+
+      <table id="myTable">
+        <thead>
+          <tr>
+            <th class="yellow">VARDAS</th>
+            <th class="yellowish">PAVARDĖ</th>
+            <th class="yellow">AMŽIUS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="row">Jonas</td>
+            <td class="row">Rimkus</td>
+            <td class="row">54</td>
+          </tr>
+          <tr>
+            <td class="row">Vestina</td>
+            <td class="row">Petronytė</td>
+            <td class="row">31</td>
+          </tr>
+          <tr>
+            <td class="row">Marius</td>
+            <td class="row">Dulinskas</td>
+            <td class="row">23</td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
